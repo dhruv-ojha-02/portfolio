@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Link from "next/link";
+
 const ContactPage = () => {
   const [emailSubmitted, setEmailSubmitted] = useState(false);
 

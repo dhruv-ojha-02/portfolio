@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const Homepage = () => {
   return (
@@ -20,23 +21,20 @@ const Homepage = () => {
         <div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col gap-8 items-center justify-center lg:mt-0 mt-8">
           {/* TITLE */}
           <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold">
-            Welcome to My Portfolio!
+            Hello! I am Dhruv Ojha.
           </h1>
           {/* DESC */}
           <p className="md:text-xl">
-            Welcome to my digital canvas, where innovation and creativity
-            converge. With a keen eye for aesthetics and a mastery of code, my
-            portfolio showcases a diverse collection of projects that reflect my
-            commitment to excellence.
+          Dedicated and motivated Computer Science Engineering graduate from LNMIIT Jaipur, equipped with a robust foundation in computer science principles and a keen knack for unraveling complex problems. Proficient in various programming languages and technologies, with an unwavering commitment to continuous learning and staying attuned to industry trends. Demonstrated ability to collaborate within cross-functional teams, effectively communicate technical concepts, and consistently deliver high-quality results. Enthusiastic about channeling my expertise and passion for problem-solving into a dynamic and progressive organization.
           </p>
           {/* BUTTONS */}
           <div className="w-full flex gap-4 p-3 m-3">
-            <button className="p-4 rounded-lg ring-1 ring-black bg-black text-white">
+            <Link href="/portfolio" className="p-3 rounded-lg ring-1 ring-black hover:bg-red-200">
               View My Work
-            </button>
-            <button className="p-4 rounded-lg ring-1 ring-black">
+            </Link>
+            <Link href="/contact" className="p-3 rounded-lg ring-1 ring-black hover:bg-red-200">
               Contact Me
-            </button>
+            </Link>
           </div>
         </div>
       </div>

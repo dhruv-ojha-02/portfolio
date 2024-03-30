@@ -11,7 +11,7 @@ const items = [
         title: "StayScape",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
         img: "/stayscape.png",
-        link: "https://lama.dev",
+        link: "https://github.com/dhruv-ojha-02",
     },
     {
         id: 2,
@@ -19,7 +19,7 @@ const items = [
         title: "StayScape",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
         img: "/stayscape.png",
-        link: "https://lama.dev",
+        link: "https://github.com/dhruv-ojha-02",
     },
     {
         id: 3,
@@ -27,7 +27,7 @@ const items = [
         title: "StayScape",
         desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
         img: "/stayscape.png",
-        link: "https://lama.dev",
+        link: "https://github.com/dhruv-ojha-02",
     },
 ];
 
